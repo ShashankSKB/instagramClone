@@ -1,0 +1,41 @@
+.parent{
+    width: 40%;
+    margin: 10px auto;
+    border: 1px solid black;
+
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details >input{
+  margin: 1% 10%;
+  padding: 10px;
+  outline:lightslategray;
+}
+
+.details>div{
+  
+    margin: 1% 10%;
+    padding: 6px;
+    
+    background-color: lightskyblue;
+    border-radius: 3px;
+}
+
+.orpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1% 10%;
+   
+}
+
+.orpart >div{
+     flex: 1;
+}
+
